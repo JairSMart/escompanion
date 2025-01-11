@@ -112,7 +112,7 @@ const NuevoIngreso = () => {
         <p>
           Aprende cómo llegar a ESCOM utilizando transporte público o privado:
           <a
-            href="https://www.google.com/maps"
+            href="https://www.google.com/maps/place/ESCOM+-+Escuela+Superior+de+Cómputo+-+IPN/@19.5046493,-99.1489033,17z/data=!3m1!4b1!4m6!3m5!1s0x85d1f94c06d75fd7:0x3fe1567da2190ac9!8m2!3d19.5046493!4d-99.146323!16s%2Fm%2F03gsmj_?entry=ttu&g_ep=EgoyMDI1MDEwOC4wIKXMDSoASAFQAw%3D%3D"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline"
