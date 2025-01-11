@@ -9,6 +9,7 @@ import NuevoIngreso from './components/NuevoIngreso';
 import Contact from './components/Contact';
 import { Link } from 'react-router-dom';
 import { BookOpen, Calculator, HelpCircle, Mail, User } from 'lucide-react';
+import logo from './logo.png';
 
 const App = () => {
   return (
@@ -57,6 +58,9 @@ const FeaturedProjectsCarousel = () => {
 // Agregarlo al Home
 const Home = () => (
   <div className="text-center py-12">
+    <div className="flex justify-center mb-8">
+      <img src={logo} alt="EscomPanion Logo" className="w-24 h-24" />
+    </div>
     <h1 className="text-4xl font-bold text-primary mb-6">Bienvenido a EscomPanion</h1>
     <p className="text-lg text-gray-600 mb-12">Tu plataforma para trámites y asistencia académica.</p>
     <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -108,4 +112,3 @@ const Home = () => (
 );
 
 export default App;
-
