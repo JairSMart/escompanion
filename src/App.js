@@ -9,7 +9,7 @@ import NuevoIngreso from './components/NuevoIngreso';
 import Contact from './components/Contact';
 import { Link } from 'react-router-dom';
 import { BookOpen, Calculator, HelpCircle, Mail, User } from 'lucide-react';
-import logo from './logo.png';
+import logo from './components/logo.png';
 
 const App = () => {
   return (
