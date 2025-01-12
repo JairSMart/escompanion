@@ -18,7 +18,7 @@ const Layout = ({ children }) => {
       <nav className="bg-blue-600 border-gray-200 px-4 py-2.5 rounded">
   <div className="container flex flex-wrap justify-between items-center mx-auto">
     <a href="/" className="flex items-center">
-      <img src="/logo.png" alt="EscomPanion Logo" className="w-8 h-8 mr-2" />
+      <img src="/logo.ico" alt="EscomPanion Logo" className="w-8 h-8 mr-2" />
       <span className="self-center text-white text-xl font-semibold whitespace-nowrap">
         EscomPanion
       </span>
