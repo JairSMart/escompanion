@@ -34,7 +34,9 @@ const FeaturedProjectsCarousel = () => {
     { title: 'Escom Groups', url: 'https://escom-phone-groups.web.app/?fbclid=IwY2xjawHj7NtleHRuA2FlbQIxMAABHXGgIgksNSa1z7BFLGD-1tB4kT0zrtRf7J82Z8OywvNtU2vuZLmL14nJ0A_aem_nvSDXLVw4q3NXm3SD-Q4tA#rulesList' },
     { title: 'Biblioteca Digital para la ESCOM', url: 'https://correoipn-my.sharepoint.com/personal/lespinosas1800_alumno_ipn_mx/_layouts/15/onedrive.aspx?id=%2Fpersonal%2Flespinosas1800_alumno_ipn_mx%2FDocuments%2FIngeniería%20en%20Sistemas%20Computacionales%20Plan%202020%20-%20Bibliografía&ga=1' },
     { title: 'MODS SAES', url: 'https://chromewebstore.google.com/detail/mods-saes/okaihfccgfhcjfineancjmhbooocebhn'},
-    { title: 'WIMP (Where Is My Professor)', url: 'https://wimp-b88e49d42f9b.herokuapp.com'}
+    { title: 'WIMP (Where Is My Professor)', url: 'https://wimp-b88e49d42f9b.herokuapp.com'},
+    { title: 'YeahNotes', url: 'https://yeahnotes.com/login'},
+    { title: 'ReferenciasProfes', url: 'https://www.misprofesores.com/escuelas/IPN-ESCOM_1694'}
   ];
 
   return (
