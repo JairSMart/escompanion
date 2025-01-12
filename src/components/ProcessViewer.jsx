@@ -111,20 +111,21 @@ const ProcessViewer = () => {
       <h2 className="text-3xl font-bold text-center text-blue-600 mb-8">{process.title}</h2>
 
       <div className="overflow-x-auto pb-4">
-        <div className="flex gap-4 mb-4">
-          {process.steps.map((step, index) => (
-            <button
-              key={index}
-              className={`flex flex-col items-center w-40 p-2 border rounded-lg cursor-pointer hover:bg-blue-100 transition-all ${
-                activeStep === index ? 'bg-blue-200 border-blue-500' : 'bg-white'
-              }`}
-              onClick={() => setActiveStep(index)}
-            >
-              {step.icon}
-              <span className="text-sm font-medium mt-2 text-center">{step.title}</span>
-            </button>
-          ))}
-        </div>
+      <div className="flex gap-4 mb-4 w-fit">
+  {process.steps.map((step, index) => (
+    <button
+      key={index}
+      className={`flex flex-col items-center w-48 p-2 border rounded-lg cursor-pointer hover:bg-blue-100 transition-all ${
+        activeStep === index ? 'bg-blue-200 border-blue-500' : 'bg-white'
+      }`}
+      onClick={() => setActiveStep(index)}
+    >
+      {step.icon}
+      <span className="text-sm font-medium mt-2 text-center">{step.title}</span>
+    </button>
+  ))}
+</div>
+
       </div>
 
       <div className="bg-white shadow-md p-6 rounded-lg transition-all duration-300 transform hover:scale-105">
