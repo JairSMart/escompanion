@@ -15,14 +15,15 @@ const Layout = ({ children }) => {
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col">
       {/* Navbar */}
-      <nav className="bg-blue-600 border-gray-200 px-4 py-2.5 rounded">
-  <div className="container flex flex-wrap justify-between items-center mx-auto">
-    <a href="/" className="flex items-center">
-      <img src="/logo.ico" alt="EscomPanion Logo" className="w-5 h-5 mr-2" />
+      <nav className="bg-blue-600 border-gray-200 px-4 py-2.5">
+  <div className="container flex justify-between items-center mx-auto">
+    {/* Logo y Nombre */}
+    <div className="flex items-center">
+      <img src="/logo.png" alt="EscomPanion Logo" className="w-10 h-10 mr-2" />
       <span className="self-center text-white text-xl font-semibold whitespace-nowrap">
         EscomPanion
       </span>
-    </a>
+    </div>
     <div className="hidden w-full md:block md:w-auto">
       <ul className="flex flex-col md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
         {menuItems.map(({ icon: Icon, label, path }) => (
